@@ -60,10 +60,20 @@ function isAWin() {
   return false;
 }
 
+function isADraw() {
+  if (board[0].mark !== 0 && board[1].mark !== 0 && board[2].mark !== 0 && board[3].mark !== 0 && board[4].mark !== 0 && board[5].mark !== 0 && board[6].mark !== 0 && board[7].mark !== 0 && board[8].mark !== 0) {
+    return true;
+  }
+  return false;
+}
+
 function game(spot) {
   board[spot].mark = currentPlayer.mark;
   if (isAWin()) {
     alert(currentPlayer.mark + " wins!");
+  } else if (isADraw()) {
+    alert("Draw!");
+    location.reload();
   }
 }
 

@@ -1,21 +1,27 @@
 .row, .col {
-  border: 1px solid black;
-
-}
-
-.row {
-  height: 10vh;
-  width: 45vw;
-  font-size: 70px;
-  text-align: center;
-}
-
-.col .btn {
-  height: 110px;
-  width: 100%;
-  margin-top: 1px;
+  font-size: 80px;
 }
 
 .col {
   overflow: hidden;
+}
+
+.bottom-line {
+  border-bottom: 3px solid black;
+}
+
+.right-line {
+  border-right: 3px solid black;
+}
+
+.btn-danger {
+  margin: 5px;
+}
+
+.container {
+  text-align: center;
+}
+
+.btn {
+  margin-bottom: 5px;
 }
