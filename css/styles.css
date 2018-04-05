@@ -25,3 +25,12 @@
 .btn {
   margin-bottom: 5px;
 }
+
+.btn-light {
+  font-size: 25px;
+}
+
+body {
+  background-color: #9490ad;
+background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+}
