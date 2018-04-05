@@ -94,8 +94,8 @@ function isADraw() {
 
 function game(spot) {
   board[spot].mark = currentPlayer.mark;
-  //debugger;
   if (isAWin()) {
+    playerO.cpu = false;
     alert(currentPlayer.mark + " wins!");
     location.reload();
   } else if (isADraw()) {
